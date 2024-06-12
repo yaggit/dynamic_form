@@ -1,0 +1,49 @@
+card-style {
+    width : 18rem
+}
+
+.main-card-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 20px 0px 20px 0px;
+    position: relative;
+}
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: arial;
+    position: relative;
+  }
+
+.progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .progress-bar {
+    width: 0%;
+    height: 20px;
+    margin-bottom: 10px;
+    background-color: blue;
+  }
+  .progress-value {
+    font-size: 18px;
+  }
+  button {
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+  }
+  button:disabled {
+    background-color: gray;
+  }
+
+.form-css {
+    width: 'relative';
+  }
